@@ -1,0 +1,58 @@
+#ccampaign #regForm {
+    background-color: #ffffff;
+    margin:auto;
+    font-family: Raleway;
+  }
+  
+  #ccampaign h1 {
+    text-align: center;  
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  #ccampaign input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  #ccampaign .tab {
+    display: none;
+  }
+  
+  /* #ccampaign button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  #ccampaign button:hover {
+    opacity: 0.8;
+  } */
+  
+  #ccampaign #prevBtn {
+    background-color: #bbbbbb;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  #ccampaign .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  #ccampaign .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  #ccampaign .step.finish {
+    background-color: #4CAF50;
+  }
